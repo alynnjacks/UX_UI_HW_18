@@ -1,0 +1,112 @@
+.body {
+  background-color: rgba(255, 245, 238, 1);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 125px;
+}
+
+.inline-block {
+  display: flex;
+  width: 100%;
+  vertical-align: top;
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: auto;
+  justify-content: space-between;
+  padding: 15px;
+  list-style: none;
+  font-family: "Poiret One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heroImg-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 50% 50%;
+  grid-area: "heroImg aboutme-container" "content content";
+}
+
+.heroImg {
+  display: grid;
+  width: 75%;
+  padding-left: 115px;
+  z-index: 100;
+}
+
+.aboutme-container {
+  display: flex;
+  padding-inline-end: 100px;
+  background-color: rgba(59, 66, 28, 0.3);
+  justify-content: center;
+  align-items: center;
+  font-family: "Poiret One", sans-serif;
+  border-radius: 45px;
+  z-index: 1;
+}
+
+.content {
+  display: grid;
+  margin: 0 auto;
+  font-family: "Poiret One", sans-serif;
+  background-color: rgba(254, 213, 198, 1);
+  border-radius: 45px;
+  grid-column: span 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-footer {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Poiret One", sans-serif;
+}
+
+.socialmedia {
+  display: flex;
+  height: 50px;
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+p {
+  font-size: 30px;
+}
+
+button {
+  margin: 0;
+  width: 25%;
+  background-color: rgba(255, 245, 238, 1);
+  font-family: "Poiret One", sans-serif;
+}
